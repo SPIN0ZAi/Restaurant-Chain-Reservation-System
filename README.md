@@ -17,14 +17,19 @@ Welcome to the **Restaurant Chain Reservation System**, a simple yet powerful co
 - 💾 Save and load data using file handling
 
 ---
+A Java-based reservation system for managing multiple restaurants in a chain. This console application allows customers to reserve tables, and restaurant managers to efficiently track and manage bookings.
 
-## 📁 Project Structure
+> ✅ Lightweight, fast, and written in pure Java.
+
+---
+
+## 📂 Project Structure
 
 ```bash
 Restaurant-Chain-Reservation-System/
-├── main.c                # Entry point of the program
-├── restaurant.h/.c       # Functions related to restaurant info
-├── reservation.h/.c      # Booking-related functions
-├── utils.h/.c            # Helper utilities
-├── data/                 # Stores saved restaurant/reservation data
-└── README.md             # You're here!
+├── Booking.java       # Handles reservation details
+├── Chain.java         # Manages a collection of restaurants
+├── Main.java          # Entry point and program logic
+├── Restaurant.java    # Individual restaurant information
+├── Table.java         # Represents table data and status
+└── README.md
